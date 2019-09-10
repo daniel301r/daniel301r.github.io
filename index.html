@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Portfolio</title>
+</head>
+<body>
+	<div class="pageContainer">
+		<div id="front">
+				<div class="frontText">
+					<h1>Daniel Munns</h1>
+					<h4>Web Developer</h4>
+				</div>
+			</div>
+			<nav id="navBar">
+				<p class="brand"><a href="#front">Daniel Munns</a></p>
+				<p class="brandSml"><a href="#front">Daniel Munns</a></p>
+				<ul class="navMenu">
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<p class="navMenuSml"><i class="fas fa-bars"></i></p>
+			</nav>
+			<ul class="smlNavLinks">
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>	
+			<div id="about">
+				<div>
+					<h2>About me</h2>
+					<p>Hi I'm Daniel from London</p>
+					<p>This is my personal portfolio showing some of my most recent projects.</p>
+					<p>I'm an aspiring full stack developer that likes working with Javascript and React.</p>
+					<p>Check out my portfolio and GitHub for more of my work.</p>
+					<p>Thanks for taking a look at my page.</p>
+				</div>
+				<div class="skillsContainer">
+					<h2>Skills</h2>
+					<p><span>Languages</span><br>Javascript ES6+, CSS, HTML</p>
+					<p><span>Libraries/Frameworks</span><br>React, Redux, Express, Node.js</p>
+					<p><span>Databases</span><br>MongoDB</p>
+				</div>
+			</div>
+		
+			<div class="line"></div>
+		
+			<div id="portfolio">
+				<h1>Recent Work</h1>
+				<ul>
+					<div id="modal-1" class="portfolio-modal">
+						<div class="modal-content">
+							<span class="closeBtn">&times;</span>
+							<p>Do you ever have left over ingredients and wonder about what to cook?
+								Enter up to five different ingredients and the app will give you recipe suggestions.
+								You can sign up and then add and edit your own recipes.
+							</p>
+							<p>Technologies Used: React, Redux, Node.js, Express, MongoDB</p>
+							<a href="https://github.com/daniel301r/recipe-organiser" target="_blank">Look at the code</a>
+							<br>
+							<a href="#">Live Demo</a>
+						</div>
+					</div>
+					<li class="align-left slide-in" data-modalNum="modal-1">
+						<p class="projectName">Ready Steady Recipe</p>
+						<img src="recipes.png" class="modalBtn">
+					</li>
+					<div id="modal-2" class="portfolio-modal">
+						<div class="modal-content">
+							<span class="closeBtn">&times;</span>
+							<p>Does what it says on the tin. Choose up to 20 questions with 
+								a range of categories and difficulties. Or you can leave the options
+								blank and the app will choose for you.
+							</p>
+							<p>Technologies Used: Vanilla JS, ES6, Webpack, NPM, CSS Animation</p>
+							<a href="https://github.com/daniel301r/multiple-quiz" target="_blank">Look at the code</a>
+							<br>
+							<a href="https://recipe-organiser.herokuapp.com">Live Demo</a>
+						</div>
+					</div>
+					<li class="align-center-top slide-in" data-modalNum="modal-2">
+						<p class="projectName">Quiz Creator</p>
+						<img src="quiz.png" class="modalBtn">
+					</li>
+					<div id="modal-3" class="portfolio-modal">
+						<div class="modal-content">
+							<span class="closeBtn">&times;</span>
+							<p>Behind the scenes of this website.</p>
+							<p>Technologies Used: Vanilla JS, CSS Responsive Design, CSS Flexbox/Grid, HTML</p>
+							<a href="https://github.com/daniel301r/My-Portfolio">Look at the code</a>
+						</div>
+					</div>
+					<li class="align-left slide-in portfolioImg" data-modalNum="modal-3">
+						<p class="projectName">This Website</p>
+						<img src="portfolio.png" class="modalBtn">
+					</li>
+				</ul>	
+			</div>
+		
+			<div class="line"></div>
+		
+			<div id="contact">
+				<div class="container">
+					<h2>This is how to get in contact</h2>
+					<p>Feel free to contact me on any of these social media platforms</p>
+					<p>You can also get in touch via email at....</p>
+				</div>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/daniel-munns/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/daniel301r" target="_blank"><i class="fab fa-git"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+				</ul>
+			</div>
+	</div>
+
+
+	<script src="main.js"></script>
+</body>
+</html>
