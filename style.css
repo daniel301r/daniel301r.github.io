@@ -156,9 +156,6 @@ nav ul a:hover {
     font-weight: bold;
 }
 
-
-
-
 /* about section*/
 
 #about{
@@ -201,7 +198,6 @@ nav ul a:hover {
 }
 
 /* modal */
-
 .portfolio-modal {
 	position: fixed;
 	top: 0;
@@ -243,8 +239,6 @@ nav ul a:hover {
 }
 
 /* portfolio */
-
-
 #portfolio{
 	background-color: white;
 	padding-bottom: 80px;
@@ -258,6 +252,7 @@ nav ul a:hover {
 	grid-row-gap: 50px;
 	width: 80%;
 	margin: 0 auto;
+	padding-left: 0;
 }
 #portfolio h1{
     margin: 0;
@@ -319,35 +314,6 @@ nav ul a:hover {
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 
-/* can take the buttons away now */
-button {
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 8px;
-    color: black;
-    padding: 10px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition-duration: 0.4s;
-    margin-top: 18px;
-    font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-}
-
-button:hover {
-    background-color: #5a5a5a45;
-	color: white;
-	transform: scale(1.05);
-}
-
-button:focus{
-	outline: none;
-}
-
-
-
 /*Contact page*/
 
 #contact{
@@ -371,8 +337,11 @@ button:focus{
 	color: #4c4141;
 }
 
-/* media queries */
+.email {
+	font-weight: bold;
+}
 
+/* media queries */
 @media screen and (max-width: 880px) {
 
 nav {

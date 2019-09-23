@@ -45,7 +45,7 @@ function checkslide() {
 
 window.addEventListener('scroll', debounce(checkslide));
 
-/* sticky navbar + menu */
+/* sticky navbar */
 const topOfNav = DOMStrings.navBar.offsetTop;
 
 function fixNav(e) {
