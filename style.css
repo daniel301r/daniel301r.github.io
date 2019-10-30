@@ -270,6 +270,7 @@ nav ul a:hover {
 	height: 230px;
 	box-shadow: 6px 4px 19px 1px #000000;
 	transition-duration: 0.4s;
+	object-fit: cover;
 }
 
 #portfolio img:hover{
@@ -282,10 +283,6 @@ nav ul a:hover {
 	justify-content: center;
 	align-items: center; 
 	flex-direction: column;
-}
-
-.portfolioImg {
-	grid-column: span 2;
 }
 
 .slide-in {

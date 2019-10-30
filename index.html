@@ -36,13 +36,13 @@
 					<h2>About me</h2>
 					<p>Hi I'm Daniel from London</p>
 					<p>This is my personal portfolio showing some of my most recent projects.</p>
-					<p>I'm an aspiring full stack developer that likes working with Javascript and React.</p>
+					<p>I'm a full-stack developer that likes working with Javascript and React.</p>
 					<p>Check out my portfolio and GitHub for more of my work.</p>
 					<p>Thanks for taking a look at my page.</p>
 				</div>
 				<div class="skillsContainer">
 					<h2>Skills</h2>
-					<p><span>Languages</span><br>Javascript ES6+, CSS, HTML</p>
+					<p><span>Languages</span><br>Javascript ES6+, CSS, HTML, Python</p>
 					<p><span>Libraries/Frameworks</span><br>React, Redux, Express, Node.js</p>
 					<p><span>Databases</span><br>MongoDB</p>
 				</div>
@@ -53,7 +53,26 @@
 			<div id="portfolio">
 				<h1>Recent Work</h1>
 				<ul>
-					<div id="modal-1" class="portfolio-modal">
+					<!-- this is the one I'm working on now -->
+				<div id="modal-1" class="portfolio-modal">
+						<div class="modal-content">
+							<span class="closeBtn">&times;</span>
+							<p>Are you looking for the perfect pet? Search for the species that you want and then you
+								can filter through various options such as breed, age, color, size etc. When you see
+								a pet that you like, take a closer look at its health stats, adoption status, who to 
+								contact etc.
+							</p>
+							<p>Technologies Used: React, Redux, Javascript, CSS</p>
+							<a href="https://github.com/daniel301r/pet-adoption-trial" target="_blank">Look at the code</a>
+							<br>
+							<a href="https://adopt-a-pet-easily.herokuapp.com/" target="_blank">Live Demo</a>
+						</div>
+					</div>
+					<li class="align-left slide-in" data-modalNum="modal-1">
+						<p class="projectName">Find A Pet</p>
+						<img src="adoptapet.png" class="modalBtn">
+					</li>
+					<div id="modal-2" class="portfolio-modal">
 						<div class="modal-content">
 							<span class="closeBtn">&times;</span>
 							<p>Do you ever have left over ingredients and wonder about what to cook?
@@ -68,11 +87,11 @@
 							<a href="https://recipe-organiser.herokuapp.com/" target="_blank">Live Demo</a>
 						</div>
 					</div>
-					<li class="align-left slide-in" data-modalNum="modal-1">
+					<li class="align-right slide-in" data-modalNum="modal-2">
 						<p class="projectName">Ready Steady Recipe</p>
 						<img src="recipes.png" class="modalBtn">
 					</li>
-					<div id="modal-2" class="portfolio-modal">
+					<div id="modal-3" class="portfolio-modal">
 						<div class="modal-content">
 							<span class="closeBtn">&times;</span>
 							<p>Does what it says on the tin. Choose up to 20 questions with 
@@ -85,11 +104,11 @@
 							<a href="https://multiple-quiz.herokuapp.com/" target="_blank">Live Demo</a>
 						</div>
 					</div>
-					<li class="align-center-top slide-in" data-modalNum="modal-2">
+					<li class="align-left slide-in" data-modalNum="modal-3">
 						<p class="projectName">Quiz Creator</p>
 						<img src="quiz.png" class="modalBtn">
 					</li>
-					<div id="modal-3" class="portfolio-modal">
+					<div id="modal-4" class="portfolio-modal">
 						<div class="modal-content">
 							<span class="closeBtn">&times;</span>
 							<p>Behind the scenes of this website.</p>
@@ -97,7 +116,7 @@
 							<a href="https://github.com/daniel301r/My-Portfolio" target="_blank">Look at the code</a>
 						</div>
 					</div>
-					<li class="align-left slide-in portfolioImg" data-modalNum="modal-3">
+					<li class="align-right slide-in" data-modalNum="modal-4">
 						<p class="projectName">This Website</p>
 						<img src="portfolio.png" class="modalBtn">
 					</li>
